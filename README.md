@@ -22,3 +22,11 @@ $ python3 server.py
   ...
 </head>
 ```
+## To change the URL Origin
+(git add .) is the same as (git add -all)
+```
+git remote set-url origin YOUR-GIT-URL
+git add .
+git commit -m "message for the commit"
+git push
+```
